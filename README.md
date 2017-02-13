@@ -1,6 +1,11 @@
-# Ionic DreamHouse
+# Ionic DreamHouse for PropertyWebBuilder
 
-Ionic DreamHouse is a sample application that demonstrates how to build mobile apps with Ionic 2. 
+This is a fork of the Ionic DreamHouse sample application that demonstrates how to build mobile apps with Ionic 2. Read more about it here:  http://coenraets.org/blog/2016/11/new-and-improved-ionic-2-sample-application/
+
+The reason for this fork is to adapt the code to work with PropertyWebBuilder as the backend API providor:
+
+https://github.com/etewiah/property_web_builder/issues/6
+
 
 ## Installation Instructions
 
@@ -33,13 +38,11 @@ Follow these instructions to install the app and run it with the mock (in-memory
     ionic serve
     ```
 
-## Using REST Services
+## Using REST Services (Currently under development)
 
 Follow these instructions to run it with the REST data services:
 
-1. Replace all references to `property-service-mock` and `broker-service-mock` with `property-service` and `broker-service`
- 
-1. Install the Node.js implementation of the REST services (see [this repository](https://github.com/dreamhouseapp/dreamhouse-rest-services) for instructions), and run the Node server.
+1. Install the PropertyWebBuilder implementation of the REST services (see [this repository](https://github.com/etewiah/property_web_builder) for instructions), and run the Rails server.
  
 1. Adjust the `SERVER_URL` in `providers/config.ts`. The default is http://localhost:5000.
 
