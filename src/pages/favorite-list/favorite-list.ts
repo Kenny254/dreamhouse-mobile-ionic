@@ -1,6 +1,6 @@
 import {Component} from '@angular/core';
 import {NavController} from 'ionic-angular';
-import {PropertyService} from '../../providers/property-service-mock';
+import {PropertyService} from '../../providers/property-service';
 import {PropertyDetailPage} from '../property-detail/property-detail';
 
 @Component({

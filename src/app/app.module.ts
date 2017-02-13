@@ -10,7 +10,7 @@ import {BrokerDetailPage} from '../pages/broker-detail/broker-detail';
 import {FavoriteListPage} from '../pages/favorite-list/favorite-list';
 import {AboutPage} from '../pages/about/about';
 
-import { PropertyService } from "../providers/property-service-mock";
+import { PropertyService } from "../providers/property-service";
 import { BrokerService } from "../providers/broker-service-mock";
 
 
